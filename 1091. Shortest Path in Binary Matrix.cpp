@@ -43,6 +43,7 @@ public:
             ++cost;
         }
         
-        return -1;
+
+        return -1; // if we do not return above, then no answer, return -1, another usual trick
     }
 };
